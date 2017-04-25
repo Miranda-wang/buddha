@@ -1,0 +1,47 @@
+.detail{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  @media (max-width: 760px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .detail-tltie {
+    text-align: center;
+    margin: 2rem 0rem;
+    font-size: 2rem;
+    @media (max-width:760px) {
+      font-size: 1.5rem;
+    }
+  }
+  p{
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .detail-img {
+    display: block;
+    margin:0 auto;
+    width: 100%;
+  }
+}
+
+.pager {
+  a {
+    color:#7c1000;
+    font-size: 1.2rem;
+  }
+  li,.previous > a, .next>a, .previous > span {
+   @media (max-width:750px)  {
+     display:block;
+     padding:5px 0;
+     float: none;
+   }
+  }
+  .next>a {
+    @media (max-width:750px)  {
+      margin-top: 10px;
+    }
+  }
+}
+
+

@@ -1,0 +1,11 @@
+.talk {
+  margin-top: 1rem;
+  a>span {
+    @media  (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
+.page {
+  text-align: center;
+}
